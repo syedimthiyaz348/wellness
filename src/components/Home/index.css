@@ -1,0 +1,84 @@
+.cover-container{
+    background-color: #fde3ce;
+    padding: 18px;
+    width: 100%;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cover-image{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.date-filter{
+    background-color: #123456;
+    display: flex;
+    flex-direction: row;
+}
+
+.treats-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.buttons{
+    background-color: #123456;
+    color: #ffffff;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.filters-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.select-background{
+    height: 35px;
+    width: 150px;
+    background-color: #123456;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-input{
+    background-color: #123456;
+    color: #ffffff;
+    border: none;
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.retreat-container{
+    background-color: #fde3ce;
+    width: 478px;
+    height: 300px;
+    margin: 15px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 18px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.retreate-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
